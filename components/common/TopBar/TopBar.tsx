@@ -5,7 +5,7 @@ import { Search, Bell, ChevronDown } from "lucide-react";
 
 export default function TopBar() {
     return (
-        <div className="h-12.5 bg-white border-b border-gray-100 flex items-center justify-between px-8 sticky top-0 z-40">
+        <div className="h-12.5 bg-white border-b border-gray-100 flex items-center justify-between px-8 fixed w-[85%] left-1/2 -translate-x-1/2 top-0 z-40">
             <div className="flex items-center bg-gray-50 rounded-xl px-4 py-2 w-100">
                 <Search className="text-gray-400 mr-2" size={20} />
                 <input
