@@ -48,13 +48,12 @@ export default function SideBar() {
   const groups = [
     {
       id: "stats",
-      items: [{ icon: BarChart3, label: "Statistics", href: "/statistics" }],
+      items: [{ icon: BarChart3, label: "Statistics", href: "/Statistics" }],
     },
     {
       id: "main",
       items: [
-        { icon: User, label: "Guests", href: "/guestManagement" },
-        { icon: Users, label: "Groups", href: "/groups" },
+        { icon: User, label: "Guests", href: "/User" },
         { icon: Bed, label: "Rooms", href: "/rooms" },
         { icon: Calendar, label: "Calendar", href: "/calendar" },
       ],
@@ -80,7 +79,7 @@ export default function SideBar() {
     <div className="fixed left-0 top-0 h-screen w-[70px] bg-[#F1F2F7] border-r border-indigo-500/30 flex flex-col items-center py-6 z-50">
       <div className="mb-12">
         <div className="w-10 h-10 bg-indigo-600 rounded-full flex items-center justify-center text-white font-bold text-xl cursor-pointer shadow-lg shadow-indigo-200">
-          S
+          A
         </div>
       </div>
 
