@@ -1,7 +1,7 @@
-import React from 'react'
+import GuestManagement from './(Guests)/guestManagement/page'
 
 export default function Home() {
   return (
-    <div>Home page</div>
+    <GuestManagement/>    
   )
 }
